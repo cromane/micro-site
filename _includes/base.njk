@@ -34,6 +34,10 @@
     </style>
   </head>
   <body>
+  <sbb-skiplink-list title-level="2" title-content="Title text">
+  <sbb-block-link href="https://www.sbb.ch/">Content</sbb-block-link>
+  <sbb-block-link href="https://www.sbb.ch/en/help-and-contact.html">Contact</sbb-block-link>
+  </sbb-skiplink-list>
     {{ content | safe }}
     {% set js %}
       {% include "script.js" %}
